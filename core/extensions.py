@@ -3,3 +3,4 @@ from flask_sqlalchemy import SQLAlchemy
 
 mail = Mail()
 db = SQLAlchemy()
+

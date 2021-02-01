@@ -10,3 +10,9 @@ class Stack(db.Model):
 
     def __init__(self, **kwargs):
         super(Stack, self).__init__(**kwargs)
+
+    def get_json(self):
+        return {
+            "id": self.id,
+            "value": self.value
+        }
